@@ -1,0 +1,823 @@
+#style{
+	
+}
+
+
+#content{
+	background-color:  #feebee;
+	width: 200%
+	text-align:center;
+	padding: 100px;
+	
+
+}
+
+.header{
+	background-image:url("img/tiwa.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.logo img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:300px;
+	width: 300px;	
+}
+
+.navbar{
+	position: absolute;
+	left: 0px
+	height: 20px;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+}
+
+.navbar ul{
+	margin: 10px;
+	padding: 2px;	
+	display: inline-block;
+	position: relative;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: white;
+}
+
+.navbar li{
+	float: right;
+}
+
+.navbar li a{ 
+
+    color: #FFA19B;
+	text-align: right;
+	font-family: "Verdana";
+	text-decoration:none;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 20px 15px;	
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.user{
+margin-top: 15px;
+
+}
+
+.cart{
+	margin-top: 15px;
+
+}
+
+
+.search{
+	margin-top: 20px;
+	position: relative;
+	
+}
+
+.greet{
+	background-image: url("img/haha.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:center;
+	padding: 100px;
+	Font-family: "Amarillo";
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	
+}
+
+.bst{
+	Font-family: "Angelinatta Personal Use Only";
+	font-size: 70px;
+	color: #DF5286;
+	text-align: center;
+	margin-top: -40px;
+	margin-bottom: 60px;
+}
+
+.row{ 
+	position: relative;
+	
+}
+
+.card{
+	border: none;
+}
+
+.flo1{
+	width: 300px;
+	height: 350px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+
+.flo1hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flo2hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flo3hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flo4hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flo5hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flo6hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.Hydrangeas{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.pHy{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.flo2{
+	width: 300px;
+	height: 350px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Opulent{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.pOp{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.flo3{
+	width: 300px;
+	height: 350px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Rosebox{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.pRb{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.flo4{
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Sunflower{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.pSun{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.flo5{
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Roselily{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.pRose{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.flo6{
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Ecuadorian{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.pEc{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ads{
+	Font-family: "Angelinatta Personal Use Only";
+	font-size: 70px;
+	color: #DF5286;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.add1hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.add2hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.add3hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.add4hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.add5hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.add6hover figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.add1{
+	width: 300px;
+	height: 350px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Creative{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.aBal{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add2{
+	width: 300px;
+	height: 350px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Mickey{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.aMic{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add3{
+	width: 300px;
+	height: 350px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.Sweets{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.aSw{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add4{
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.tiffa{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.aTi{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add5{
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.neck{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.aNeck{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add6{
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	border-radius: 15px 20px 10px 9px;
+	border-style: inset;
+	border-color: #DF5286;
+}
+.pandora{
+	font-family: "Headland One";
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.aRing{
+	font-family: "Headland One";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.footer{
+	padding: 15px;
+	background-color: white;
+	background-size: cover;
+	text-align: center;
+	font-family: "cambria";
+	font-size: 20px;
+	background-size: cover;
+	height: 320px;
+	width: 100%;
+}
+
+.emailcont{
+	height: 40px;
+	width: 350px;
+}
+.btn {
+	height: 42px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn.subscribe {
+    background: none;
+}
+
+.btn-primary.subscribe {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+
+.btn-primary.subscribe:hover, .btn-primary.subscribe:focus, .btn-primary.subscribe:active, .btn-primary.subscribe.active, .open .dropdown-toggle.btn-primary {
+    color: white;
+    border-color: white;
+}
+
+.click{
+font-family: "cambria";
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.footerleft {
+	margin-right: 30px;
+	margin-top: 12px;
+	
+}
+
+.widget-title { 
+	font-family: "Headland One";
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+
+ul{ 
+	font-family: "Cambria";
+	list-style-type: none; 
+    margin-right: 40px;
+}
+
+.contact{
+	color: black;
+	text-decoration: none;
+}
+
+.about{
+	color: black;
+	text-decoration: none;
+}
+
+.footercenter{
+	margin-right: 75px;
+	margin-top: 12px;
+}
+
+.widget-title f { 
+	font-family: "Headland One";
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+
+.visa {
+	height: 50px;
+	width: 80px;
+} 
+
+.mastercard {
+	height: 50px;
+	width: 80px;
+} 
+
+.paypal {
+	height: 50px;
+	width: 80px;
+} 
+
+.western {
+	height: 50px;
+	width: 80px;
+} 
+
+.footerright{
+	margin-right: 75px;
+	margin-top: 12px;
+}
+
+.widget-title r { 
+	font-family: "Headland One";
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+
+.facebook {
+	height: 40px;
+	width: 42px;
+} 
+
+.twitter {
+	height: 40px;
+	width: 43px;
+} 
+
+.instagram {
+	height: 45px;
+	width: 50px;
+} 
+
+.linkedin {
+	height: 43px;
+	width: 47px;
+} 
+
+
+.text{
+	
+	font-family: "Headland One";
+	font-size: 30px;
+	text-align: center;
+}
+
+.contactus{
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+.about{
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+.terms{
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+.privacy{
+	font-size: 20px;
+	margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

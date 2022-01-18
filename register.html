@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<title> REGISTRATION </title>
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="external.css">
+  <script src="FlowerJS.js"> </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  
+</head>
+
+<body id="page-top">
+		<div class = "header">
+		
+		<div class = "logo">
+			<img src = "img/CakeLogo.png"> 
+			
+        </div>
+		</div>
+		
+		<div class = "navbar">
+			
+			<ul>
+			<li><a href = "#" class="hvr-grow"> Flowers </a></li>
+			<li><a href = "#" class="hvr-grow"> Occassions </a></li>
+			<li><a href = "#" class="hvr-grow"> Cakes </a></li>
+			<li><a href = "index.html" class="hvr-grow"> Home </a></li>
+			</ul> 
+			
+	    </div>
+		
+<div class="container-fluid">
+
+		<div class="card shadow mb-4">
+		  
+                <div class="card-header">
+				<h2 align = "center">Registration</h1>
+				
+				<div class="row">
+				<div class="col-xl-5">
+						
+					
+				</div>
+				
+					<div class="col-xl-6">
+					
+					<br>
+						
+                    <form name = "regForm" onsubmit = "return validateForm()" method = "post">
+					
+                    <input type = "text" name = "fname" placeholder = "First Name" required> <br><br>
+					<input type = "text" name = "lname" placeholder = "Last Name" required> <br><br>
+					<input type = "text" name = "add" placeholder = "Address" required> <br><br>
+					<input type = "text" name = "email" placeholder = "Email Address" required> <br><br>
+					<input type = "text" name = "num" placeholder = "Contact Number" required> <br><br>
+					
+					Mode of Payment: <br>
+					<input type = "radio" name = "mop" value = "Cash" required> Cash 
+					<input type = "radio" name = "mop" value = "Credit Card" required> Credit Card
+
+					<br><br>					
+					
+					<p> Birthdate:
+					<input type = "date" name = "bdate" placeholder = "mm/dd/yyyy" required> 
+					
+					<br><br>
+					
+					Gender: <br>
+					<input type = "radio" name = "gn" value = "male" required> Male 
+					<input type = "radio" name = "gn" value = "female" required> Female 
+				
+					<br><br>
+
+					<input type = "checkbox" name = "check"> 
+					<label for = "check"> I have read and agree to the <a href = "tac.html"> Terms and Conditions</a></label>
+						
+					<br><br>				
+			
+					<input type = "submit" value = "Register" onclick = "save(form.fname.value, form.lname.value, form.add.value, form.email.value, form.cnum.value, form.pay.value, form.bdate.value, form.sx.value)"/>
+                   
+				      </form>
+					  
+				</div>
+				</div>
+				</div>
+					
+					  <!--footer-->
+
+					  <div class="card text-center">		
+					  <div class = "textcardf">
+					  <div class="card-footer text-muted">
+						     Copyright © 2021-2022 Bels Sweet Creations Philippines, All rights reserved.
+				</div>
+				</div>
+				</div>
+				</div>
+				
+				
+
+   <!-- End of Content Wrapper -->
+
+	</div>
+  <!-- End of Page Wrapper -->
+	</div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
